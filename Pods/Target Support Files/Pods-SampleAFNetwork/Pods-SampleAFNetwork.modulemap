@@ -1,0 +1,6 @@
+framework module Pods_SampleAFNetwork {
+  umbrella header "Pods-SampleAFNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

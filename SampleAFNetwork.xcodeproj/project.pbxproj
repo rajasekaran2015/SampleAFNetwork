@@ -20,6 +20,9 @@
 		840C8DDF1D54A77500130970 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C8DDC1D54A77500130970 /* RootViewController.m */; };
 		840C8DE21D54A91400130970 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C8DE11D54A91400130970 /* Place.m */; };
 		840C8DE31D54A91400130970 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C8DE11D54A91400130970 /* Place.m */; };
+		840C8DE61D54B24300130970 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C8DE51D54B24300130970 /* DetailViewController.m */; };
+		840C8DE71D54B24300130970 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C8DE51D54B24300130970 /* DetailViewController.m */; };
+		840C8DE81D54B24300130970 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C8DE51D54B24300130970 /* DetailViewController.m */; };
 		C116CDAE6E78B1AC3EBDBF1E /* Pods_SampleAFNetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2CFCF6333834CDED5FE10D5 /* Pods_SampleAFNetworkTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,8 @@
 		840C8DDC1D54A77500130970 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		840C8DE01D54A91400130970 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
 		840C8DE11D54A91400130970 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		840C8DE41D54B24300130970 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		840C8DE51D54B24300130970 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		BDA42A82306BCF26561490A3 /* Pods_SampleAFNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAFNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CFCF6333834CDED5FE10D5 /* Pods_SampleAFNetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAFNetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAC6A6A44339207F706B341 /* Pods-SampleAFNetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAFNetworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAFNetworkTests/Pods-SampleAFNetworkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +155,8 @@
 				840C8DDC1D54A77500130970 /* RootViewController.m */,
 				840C8DE01D54A91400130970 /* Place.h */,
 				840C8DE11D54A91400130970 /* Place.m */,
+				840C8DE41D54B24300130970 /* DetailViewController.h */,
+				840C8DE51D54B24300130970 /* DetailViewController.m */,
 			);
 			path = SampleAFNetwork;
 			sourceTree = "<group>";
@@ -409,6 +416,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840C8DE61D54B24300130970 /* DetailViewController.m in Sources */,
 				840C8DAD1D549E6D00130970 /* AppDelegate.m in Sources */,
 				840C8DDD1D54A77500130970 /* RootViewController.m in Sources */,
 				840C8DAA1D549E6D00130970 /* main.m in Sources */,
@@ -423,6 +431,7 @@
 				840C8DE31D54A91400130970 /* Place.m in Sources */,
 				840C8DDE1D54A77500130970 /* RootViewController.m in Sources */,
 				840C8DC31D549E6D00130970 /* SampleAFNetworkTests.m in Sources */,
+				840C8DE71D54B24300130970 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +441,7 @@
 			files = (
 				840C8DDF1D54A77500130970 /* RootViewController.m in Sources */,
 				840C8DCE1D549E6D00130970 /* SampleAFNetworkUITests.m in Sources */,
+				840C8DE81D54B24300130970 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -133,4 +133,8 @@
     [dataTask resume];
     
 }
+
+- (IBAction)sampleAction:(id)sender {
+    
+}
 @end

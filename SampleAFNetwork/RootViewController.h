@@ -11,4 +11,6 @@
 @interface RootViewController : UITableViewController
 @property(nonatomic, strong) NSMutableArray *results;
 - (IBAction)refreshAction:(id)sender;
+- (IBAction)sampleAction:(id)sender;
+
 @end
